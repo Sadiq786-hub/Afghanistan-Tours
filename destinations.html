@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinations - Afghanistan Tours</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Afghanistan Tours logo">
+      <span data-i18n="site_name">Afghanistan Tours</span>
+    </a>
+
+    <button class="lang-btn" id="langBtn">فارسی</button>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+    <nav id="mainNav">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="destinations.html" class="active" data-i18n="nav_destinations">Destinations</a>
+      <a href="tours.html" data-i18n="nav_tours">Tours</a>
+      <a href="about.html" data-i18n="nav_about">About</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="destinations">
+    <h2 data-i18n="destinations_title">Our Destinations</h2>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" data-i18n-placeholder="search_placeholder" placeholder="Search destination (e.g. Kabul)">
+      <button id="searchBtn" class="btn" data-i18n="search_btn">Search</button>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <img src="images/kabul.jpg" alt="Kabul city">
+        <h3 data-i18n="kabul_name">Kabul</h3>
+        <p data-i18n="kabul_text">Explore the capital, its gardens and bazaars.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/bamyan.jpg" alt="Bamyan valley">
+        <h3 data-i18n="bamyan_name">Bamyan</h3>
+        <p data-i18n="bamyan_text">Discover the valley, cliffs and Band-e Amir lakes.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/herat.jpg" alt="Herat citadel">
+        <h3 data-i18n="herat_name">Herat</h3>
+        <p data-i18n="herat_text">Visit the historic citadel and the Blue Mosque.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p data-i18n="footer_contact">Phone: +93 700 000 000 | Email: info@afghanistantours.com</p>
+    <p data-i18n="footer_rights">© 2026 Afghanistan Tours. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
